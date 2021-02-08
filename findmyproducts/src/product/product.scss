@@ -1,0 +1,43 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.product-wrap {	
+	
+
+	.product-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 30vw;
+		background-color: greenyellow;
+		border: 1px solid greenyellow;
+		border-radius: 5px;
+		box-shadow: 1px 5px grey;
+		margin: 5vw;
+		padding: 5vw;
+	
+		.dimension {
+			display: flex;
+			justify-content: space-between;
+			width: 25vw;
+		}
+	
+		.price-rate {
+			display: flex;
+			justify-content: space-between;
+			width: 25vw;
+		}
+	
+		p {
+			margin: 5px;
+		}
+	}
+}

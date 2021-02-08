@@ -1,0 +1,36 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+
+	form {
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+	
+		input {
+			background-color: orange;
+			border-radius: 5px;
+			box-shadow: 1px 5px grey;
+			width: 250px;
+			height: 30px;
+		}
+	}
+	
+	.product-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
+
+
+
+
+

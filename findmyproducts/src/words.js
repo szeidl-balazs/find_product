@@ -1,4 +1,4 @@
-export const words = [
+  const words = [
   {
     title: "Brown eggs",
     type: "dairy",
@@ -519,3 +519,5 @@ export const words = [
     rating: 3,
   },
 ];
+
+export default words;
